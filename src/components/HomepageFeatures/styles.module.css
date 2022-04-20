@@ -1,0 +1,25 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.featureSvg {
+  height: 200px;
+  width: 200px;
+}
+
+.features a {
+  color: #000;
+}
+
+.features img {
+  height: 200px;
+}
+
+.features h3 {
+  padding: 20px 0;
+  font-size: 42px;
+  font-weight: 800;
+}
