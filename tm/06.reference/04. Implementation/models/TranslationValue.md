@@ -1,12 +1,11 @@
 The TranslationValue class is the working unit of translation within Translation Manager
 
-depending on the complexity of the property being represented a Single Translation Value
+Depending on the complexity of the property being represented a Single Translation Value
 may contain one or more child values. 
 
-for example in a simple text box there will be a single value and no InnerValues, but
-for something more complex like a grid editor there might be many innervalues representing
-each row of the grid which in turn have innervalues representing the blocks, which then
-might have inner values representing the properties uses (such as rich text boxes, leblender controls, etc.)
+For example in a simple text box there will be a single value and no InnerValues. For something more complex like a grid editor there might be many InnerValues representing
+each row of the grid which in turn have InnerValues representing the blocks, which then
+might have inner values representing the properties uses (such as rich text boxes, leblender controls, etc.).
 
 
 ```
