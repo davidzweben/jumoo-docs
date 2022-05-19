@@ -51,9 +51,31 @@ translations.
 </TabItem>
 <TabItem value="9">
 
-:::info
-Work in progress
+:::note
+In umbraco 9/10 the mappings are stored in a `config/translation_mapping.config` file.
+This file does not exist by default and you will need to create it if you want to define custom mappings. 
 :::
+
+If your property editor used the JSON above then you can map this with the following configuration in
+the `config/translation_mapping.config`. You will need to define the config using the `<custom>`
+or `<grid>` config nodes (see below for details of how the grid naming works).
+
+```xml
+<mappers>
+    <custom>
+        <config alias="My.Custom.Property">
+            <properties>
+                <property name="Title" alias="Umbraco.Textbox" />
+                <property name="Content" alias="Umbraco.TinyMCEv3" />
+            </properties>
+        </config>
+    </custom>
+</mappers>
+```
+This config tells Translation Manager to treat all My.Custom.Property values as
+JSON and to extract the title and content values when creating and importing
+translations.
+
 
 </TabItem>
 </Tabs>
