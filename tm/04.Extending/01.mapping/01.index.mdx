@@ -8,10 +8,10 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 <Tabs
-  defaultValue="8"
+  defaultValue="9"
   values={[
     { label: 'Umbraco 8', value: '8', },
-    { label: 'Umbraco 9', value: '9', },
+    { label: 'Umbraco 9/10', value: '9', },
   ]
 }>
 <TabItem value="8">
@@ -59,10 +59,10 @@ e.g
 <TabItem value="9">
 
 If you have a custom property editor that stores information in the same format as an existing built in property 
-you can map your custom property to that inbuilt editor and Translation Manager will use that mapper for your values.
+you can map your custom property to that inbuilt editor. Translation Manager will use that mapper for your values.
 
 :::note
-In umbraco 9/10 the mappings are stored in a `config/translation_mapping.config` file.
+In Umbraco 9/10 the mappings are stored in a `config/translation_mapping.config` file.
 This file does not exist by default and you will need to create it if you want to define custom mappings. 
 :::
 
@@ -78,7 +78,7 @@ This file does not exist by default and you will need to create it if you want t
 ```
 
 :::tip
-If you custom mapper is also used in the grid you should also add a Umbraco.Grid.[name] mapping. To cover those situations. e.g.
+If you custom mapper is also used in the grid you should add an Umbraco.Grid.[name] mapping. to cover those situations, e.g.
 
 
 ```
@@ -86,10 +86,10 @@ If you custom mapper is also used in the grid you should also add a Umbraco.Grid
 ```
 :::
 
-You will be able to see whether you custom mappings have loaded on the Translation Manager *Diagnostics* tab.
+You will be able to see whether you custom mappings have loaded in the Translation Manager *Diagnostics* tab.
 
 ### Link Mapping 
-These custom mappings will also be used for link mapping, so if you have any controls that include links, you can use these mappings to catch those values.
+These custom mappings will also be used for link mapping. If you have any controls that include links, you can use these mappings to catch those values.
 
 e.g 
 
