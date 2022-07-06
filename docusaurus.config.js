@@ -27,7 +27,8 @@ const config = {
           routeBasePath: 'usync',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/Jumoo/Jumoo.Docs/edit/master',
+         
+          editUrl: 'https://github.com/Jumoo/jumoo-docs/edit/master',
           versions: {
             current: {
               label: 'v10.x - Umbraco 10'
@@ -55,6 +56,7 @@ const config = {
         id: 'tm',
         path: 'tm',
         routeBasePath: 'tm',
+        editUrl: 'https://github.com/Jumoo/jumoo-docs/edit/master',
         sidebarPath: require.resolve('./sidebars.js'),
         lastVersion: 'current',
         versions: {
@@ -109,7 +111,7 @@ const config = {
             docsPluginId: 'tm'
           },           
           {
-            href: 'https://github.com/Jumoo/Jumoo.Docs/',
+            href: 'https://github.com/Jumoo/jumoo-docs/',
             label: 'GitHub',
             position: 'right',
           },
@@ -153,7 +155,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/Jumoo/uSync.Docs',
+                href: 'https://github.com/Jumoo/jumoo-docs',
               },
             ],
           },
