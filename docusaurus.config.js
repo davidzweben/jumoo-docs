@@ -31,17 +31,21 @@ const config = {
           editUrl: 'https://github.com/Jumoo/jumoo-docs/edit/master',
           versions: {
             current: {
-              label: 'v10.x - Umbraco 10'
-           },
-           "9.x": {
-            label: 'v9.x - Umbraco 9',
-            banner: 'none'
-          },
-          "8.x": {
-            label: 'v8.x - Umbraco 8',
-            banner: 'none'
+              label: 'v11.x - Umbraco 11'
+            },
+            "10.x": {
+             label: 'v10.x - Umbraco 10',
+             banner: 'none'
+            },
+            "9.x": {
+             label: 'v9.x - Umbraco 9',
+             banner: 'unmaintained'
+            },
+            "8.x": {
+             label: 'v8.x - Umbraco 8',
+             banner: 'none'
+            }
           }
-       }
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -61,7 +65,11 @@ const config = {
         lastVersion: 'current',
         versions: {
           current: {
-            label: 'v10.x - Umbraco 10'
+            label: 'v11.x - Umbraco 11'
+         },
+         "10.x": {
+          label: 'v10.x - Umbraco 10',
+          banner: 'none'
          },
          "9.x": {
           label: 'v9.x - Umbraco 9',
