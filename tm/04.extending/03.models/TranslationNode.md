@@ -2,7 +2,7 @@ A Translation Node is a representation of a single content node that requires
 translation - it contains the ids of the master and target content nodes within
 umbraco, and a collection of PropertyGroups (which relate to tabs within umbraco)
 
-Within these propertyGroups are the [TranslationProperties](TranslationProperty.md)
+Within these propertyGroups are the [TranslationProperties](TranslationProperty)
 
 
 ```
