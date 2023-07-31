@@ -1,3 +1,8 @@
 {
-    "label" : "People Edition"
+    "label" : "People Edition",
+    "link": {
+        "type": "generated-index",
+        "title": "People Edition",
+        "description": "Your guide to uSync.PeopleEdition."
+    }
 }

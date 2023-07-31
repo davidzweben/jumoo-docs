@@ -1,4 +1,9 @@
 {
-    "label": "Extending"
+    "label": "Extending",
+    "link": {
+        "type": "generated-index",
+        "title": "Extending",
+        "description": "How to extend Translation Manager to meet your needs."
+    }
 }
   
